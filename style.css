@@ -28,3 +28,14 @@ li a:hover:not(active)
 			background-color:#7d7d88;
 		}
 
+img
+		{
+			border-radius: 12px;
+			border: 1px solid #92929f;
+			margin: 15px;	
+		}
+		
+img:hover
+		{
+			box-shadow:0 0 3px 2px #92929f;
+		}
