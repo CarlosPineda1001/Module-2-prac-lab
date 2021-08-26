@@ -1,0 +1,30 @@
+	ul
+		{
+			list-style-type: none;		/* to make it not bulleted */
+			overflow: hidden;			/* make picture below the tabs */
+		}
+			
+li 
+		{
+			float: left;
+		}	
+		
+li a
+		{
+			display: block;
+			font-size: 17pt;
+			padding: 8px 8px;
+			background-color: #bcbccc;
+			border: 1px solid #92929f;
+		}
+		
+li a.active
+		{
+			background-color:#7d7d88;
+		}
+		
+li a:hover:not(active)
+		{
+			background-color:#7d7d88;
+		}
+
